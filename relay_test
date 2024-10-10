@@ -1,0 +1,6 @@
+import requests
+
+esp32_ip = "http://192.168.87.206"
+
+# Turn relay ON
+requests.get(f"{esp32_ip}/off")
