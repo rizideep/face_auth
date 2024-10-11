@@ -25,7 +25,7 @@ def build_faiss_index():
         embedding = emb.get('embedding')  # Assuming this is the embedding array
         embedding_vectors.append(embedding)
         metadata.append((_id, user_id, name))
-        print(f"emp:  {emb}")  # Store metadata
+     #  print(f"emp:  {emb}")  # Store metadata
 
     # Convert lists to numpy arrays
     embedding_vectors = np.array(embedding_vectors)
